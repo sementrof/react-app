@@ -59,3 +59,39 @@
   .hotel-card-button:hover {
     background-color: #0056b3;
   }
+
+
+.delete_direction{
+  display: flex;
+  width: auto
+}
+
+
+
+.add-direction {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.add-direction input {
+  margin-right: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.add-direction button {
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-direction button:hover {
+  background-color: darkgreen;
+}
+
+
+
+
