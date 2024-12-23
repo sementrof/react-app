@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./admin-page.css";
+import "./Admin-page.css";
 
 interface Direction {
   id: number;
