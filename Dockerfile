@@ -6,7 +6,7 @@ RUN npm install
 
 COPY . . 
 
-RUN npm build
+RUN npm run build
 
 FROM nginx:stable-alpine 
 
@@ -15,5 +15,5 @@ COPY  --from=build nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 3000
 
-CMD [ "nginx", "-g", "deamon off;" ]
+CMD [ "nginx", "-g", "daemon off;" ]
 
